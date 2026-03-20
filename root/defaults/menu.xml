@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+<menu id="root-menu" label="MENU">
+<item label="Terminal" icon="/usr/share/pixmaps/xterm-color_48x48.xpm"><action name="Execute"><command>/usr/bin/st</command></action></item>
+<item label="VSCode" icon="/usr/share/pixmaps/vscode.png"><action name="Execute"><command>/usr/bin/code</command></action></item>
+<item label="Chromium" icon="/usr/share/icons/hicolor/48x48/apps/chromium.png"><action name="Execute"><command>/usr/bin/chromium</command></action></item>
+<item label="File Manager" icon="/usr/share/icons/Adwaita/symbolic/legacy/system-file-manager-symbolic.svg"><action name="Execute"><command>/usr/bin/caja</command></action></item>
+</menu>
+</openbox_menu>
