@@ -1,0 +1,13 @@
+#! /bin/bash
+
+BIN=/usr/share/code/bin/code
+
+# Wayland check
+if pgrep labwc > /dev/null 2>&1; then
+  WAYLAND="--ozone-platform=wayland"
+fi
+
+dbus-launch ${BIN} \
+  --no-sandbox \
+  ${WAYLAND} \
+   "$@"
