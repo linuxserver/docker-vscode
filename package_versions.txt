@@ -1,5 +1,9 @@
 NAME                                                                          VERSION                                TYPE                       
-@anthropic-ai/sandbox-runtime                                                 0.0.23                                 npm                         
+@anthropic-ai/sandbox-runtime                                                 0.0.42                                 npm                         
+@emnapi/runtime                                                               1.8.1                                  npm                         
+@github/copilot                                                               1.0.4-0                                npm                         
+@github/copilot-sdk                                                           0.1.32                                 npm                         
+@img/sharp-wasm32                                                             0.34.5                                 npm                         
 @isaacs/fs-minipass                                                           4.0.1                                  npm                         
 @microsoft/1ds-core-js                                                        3.2.13                                 npm                         
 @microsoft/1ds-post-js                                                        3.2.13                                 npm                         
@@ -12,12 +16,13 @@ NAME                                                                          VE
 @types/lodash                                                                 4.17.23                                npm                         
 @types/lodash-es                                                              4.17.12                                npm                         
 @types/semver                                                                 7.5.8                                  npm                         
-@vscode/codicons                                                              0.0.45-14                              npm                         
+@vscode/codicons                                                              0.0.46-0                               npm                         
 @vscode/deviceid                                                              0.1.4                                  npm                         
+@vscode/fs-copyfile                                                           2.0.0                                  npm                         
 @vscode/iconv-lite-umd                                                        0.7.1                                  npm                         
 @vscode/native-watchdog                                                       1.4.6                                  npm                         
 @vscode/policy-watcher                                                        1.3.7                                  npm                         
-@vscode/proxy-agent                                                           0.39.1                                 npm                         
+@vscode/proxy-agent                                                           0.40.0                                 npm                         
 @vscode/ripgrep                                                               1.17.1                                 npm                         
 @vscode/spdlog                                                                0.15.7                                 npm                         
 @vscode/sqlite3                                                               5.1.12-vscode                          npm                         
@@ -35,7 +40,7 @@ NAME                                                                          VE
 @xterm/addon-webgl                                                            0.20.0-beta.190                        npm                         
 @xterm/headless                                                               6.1.0-beta.191                         npm                         
 @xterm/xterm                                                                  6.1.0-beta.191                         npm                         
-Code                                                                          1.112.0                                npm                         
+Code                                                                          1.113.0                                npm                         
 Microsoft.PowerShell.PSReadLine                                               2.4.3                                  dotnet                      
 Microsoft.PowerShell.PSReadLine.Polyfiller                                    1.0.0.0                                dotnet     (+1 duplicate)   
 Microsoft.PowerShell.Pager                                                    1.0.0.0                                dotnet                      
@@ -44,7 +49,7 @@ adwaita-icon-theme                                                            48
 agent-base                                                                    7.1.4                                  npm                         
 aiofiles                                                                      25.1.0                                 python                      
 aiohappyeyeballs                                                              2.6.1                                  python                      
-aiohttp                                                                       3.13.3                                 python                      
+aiohttp                                                                       3.13.4                                 python                      
 aioice                                                                        0.10.2                                 python                      
 aiosignal                                                                     1.4.0                                  python                      
 apt                                                                           3.0.3                                  deb                         
@@ -54,6 +59,7 @@ at-spi2-common                                                                2.
 at-spi2-core                                                                  2.56.2-1+deb13u1                       deb                         
 attrs                                                                         26.1.0                                 python                      
 autocommand                                                                   2.2.2                                  python                      
+av                                                                            17.0.0                                 python                      
 backports-tarfile                                                             1.2.0                                  python                      
 base-files                                                                    13.8+deb13u4                           deb                         
 base-passwd                                                                   3.6.7                                  deb                         
@@ -81,9 +87,9 @@ catatonit                                                                     0.
 cffi                                                                          2.0.0                                  python                      
 chownr                                                                        3.0.0                                  npm                         
 chrome-remote-interface                                                       0.33.0                                 npm                         
-chromium                                                                      146.0.7680.153-1~deb13u1               deb                         
-chromium-common                                                               146.0.7680.153-1~deb13u1               deb                         
-chromium-l10n                                                                 146.0.7680.153-1~deb13u1               deb                         
+chromium                                                                      146.0.7680.164-1~deb13u1               deb                         
+chromium-common                                                               146.0.7680.164-1~deb13u1               deb                         
+chromium-l10n                                                                 146.0.7680.164-1~deb13u1               deb                         
 cli                                                                           UNKNOWN                                binary                      
 cli-32                                                                        UNKNOWN                                binary                      
 cli-64                                                                        UNKNOWN                                binary                      
@@ -96,7 +102,7 @@ cloud.google.com/go/logging                                                   v1
 cloud.google.com/go/longrunning                                               v0.7.0                                 go-module                   
 cmake                                                                         3.31.6-2                               deb                         
 cmake-data                                                                    3.31.6-2                               deb                         
-code                                                                          1.112.0-1773778351                     deb                         
+code                                                                          1.113.0-1774364744                     deb                         
 code.cloudfoundry.org/clock                                                   v1.60.0                                go-module                   
 coffeescript                                                                  10.0.0                                 npm                         
 commander                                                                     12.1.0                                 npm                         
@@ -113,7 +119,7 @@ cpp-14-x86-64-linux-gnu                                                       14
 cpp-x86-64-linux-gnu                                                          4:14.2.0-1                             deb                         
 cron                                                                          3.0pl1-197                             deb                         
 cron-daemon-common                                                            3.0pl1-197                             deb                         
-cryptography                                                                  46.0.5                                 python                      
+cryptography                                                                  46.0.6                                 python                      
 csharp                                                                        10.0.0                                 npm                         
 css                                                                           10.0.0                                 npm                         
 css-language-features                                                         10.0.0                                 npm                         
@@ -151,8 +157,8 @@ dmsetup                                                                       2:
 dnspython                                                                     2.8.0                                  python                      
 docker                                                                        10.0.0                                 npm                         
 docker-buildx-plugin                                                          0.31.1-1~debian.13~trixie              deb                         
-docker-ce                                                                     5:29.3.0-1~debian.13~trixie            deb                         
-docker-ce-cli                                                                 5:29.3.0-1~debian.13~trixie            deb                         
+docker-ce                                                                     5:29.3.1-1~debian.13~trixie            deb                         
+docker-ce-cli                                                                 5:29.3.1-1~debian.13~trixie            deb                         
 docker-compose-plugin                                                         5.1.1-1~debian.13~trixie               deb                         
 dotenv                                                                        10.0.0                                 npm                         
 dpkg                                                                          1.22.22                                deb                         
@@ -290,7 +296,8 @@ github.com/containerd/otelttrpc                                               v0
 github.com/containerd/platforms                                               v1.0.0-rc.2                            go-module  (+4 duplicates)  
 github.com/containerd/plugin                                                  v1.0.0                                 go-module  (+3 duplicates)  
 github.com/containerd/stargz-snapshotter/estargz                              v0.18.2                                go-module                   
-github.com/containerd/ttrpc                                                   v1.2.7                                 go-module  (+5 duplicates)  
+github.com/containerd/ttrpc                                                   v1.2.7                                 go-module  (+4 duplicates)  
+github.com/containerd/ttrpc                                                   v1.2.8                                 go-module                   
 github.com/containerd/typeurl/v2                                              v2.2.3                                 go-module  (+5 duplicates)  
 github.com/containerd/zfs/v2                                                  v2.0.0                                 go-module                   
 github.com/containernetworking/cni                                            v1.3.0                                 go-module  (+2 duplicates)  
@@ -461,7 +468,7 @@ github.com/mitchellh/hashstructure/v2                                         v2
 github.com/mitchellh/reflectwalk                                              v1.0.2                                 go-module                   
 github.com/moby/buildkit                                                      v0.27.0                                go-module                   
 github.com/moby/buildkit                                                      v0.27.1                                go-module                   
-github.com/moby/buildkit                                                      v0.28.0                                go-module                   
+github.com/moby/buildkit                                                      v0.28.1                                go-module                   
 github.com/moby/docker-image-spec                                             v1.3.1                                 go-module  (+2 duplicates)  
 github.com/moby/go-archive                                                    v0.2.0                                 go-module  (+2 duplicates)  
 github.com/moby/ipvs                                                          v1.1.0                                 go-module                   
@@ -470,8 +477,9 @@ github.com/moby/moby/api                                                      v1
 github.com/moby/moby/api                                                      v1.54.0                                go-module  (+1 duplicate)   
 github.com/moby/moby/client                                                   v0.2.1                                 go-module                   
 github.com/moby/moby/client                                                   v0.3.0                                 go-module                   
-github.com/moby/moby/v2                                                       v29.3.0                                go-module  (+1 duplicate)   
-github.com/moby/patternmatcher                                                v0.6.0                                 go-module  (+2 duplicates)  
+github.com/moby/moby/v2                                                       v29.3.1                                go-module  (+1 duplicate)   
+github.com/moby/patternmatcher                                                v0.6.0                                 go-module  (+1 duplicate)   
+github.com/moby/patternmatcher                                                v0.6.1                                 go-module                   
 github.com/moby/policy-helpers                                                v0.0.0-20251206004813-9fcc1a9ec5c9     go-module                   
 github.com/moby/policy-helpers                                                v0.0.0-20260211190020-824747bfdd3c     go-module                   
 github.com/moby/profiles/apparmor                                             v0.1.0                                 go-module                   
@@ -742,8 +750,8 @@ jaraco-functools                                                              4.
 jaraco-text                                                                   4.0.0                                  python                      
 java                                                                          10.0.0                                 npm                         
 javascript                                                                    10.0.0                                 npm                         
-jq                                                                            1.7.1                                  binary                      
 jq                                                                            1.7.1-6+deb13u1                        deb                         
+jq                                                                            1.8.1                                  binary                      
 js-base64                                                                     3.7.7                                  npm                         
 js-debug                                                                      1.112.0                                npm                         
 js-debug-companion                                                            1.1.3                                  npm                         
@@ -1259,7 +1267,7 @@ nftables                                                                      1.
 nginx                                                                         1.26.3-3+deb13u2                       deb                         
 nginx-common                                                                  1.26.3-3+deb13u2                       deb                         
 node-abi                                                                      3.8.0                                  npm                         
-node-pty                                                                      1.2.0-beta.10                          npm                         
+node-pty                                                                      1.2.0-beta.12                          npm                         
 npm                                                                           1.0.1                                  npm                         
 nvidia-cuda-nvrtc                                                             13.2.51                                python                      
 objective-c                                                                   10.0.0                                 npm                         
@@ -1279,7 +1287,7 @@ pasimple                                                                      0.
 passwd                                                                        1:4.17.4-2                             deb                         
 pci.ids                                                                       0.0~2025.06.09-1                       deb                         
 pciutils                                                                      1:3.13.0-2                             deb                         
-pcmflux                                                                       1.0.7                                  python                      
+pcmflux                                                                       1.0.8                                  python                      
 pend                                                                          1.2.0                                  npm                         
 perl                                                                          10.0.0                                 npm                         
 perl                                                                          5.40.1-6                               deb                         
@@ -1366,8 +1374,7 @@ sqv                                                                           1.
 ssh-askpass                                                                   1:1.2.4.1-16+b1                        deb                         
 ssl-cert                                                                      1.1.3                                  deb                         
 stdlib                                                                        go1.25.6                               go-module                   
-stdlib                                                                        go1.25.7                               go-module  (+2 duplicates)  
-stdlib                                                                        go1.25.8                               go-module  (+4 duplicates)  
+stdlib                                                                        go1.25.8                               go-module  (+7 duplicates)  
 string_decoder                                                                1.1.1                                  npm                         
 strip-json-comments                                                           2.0.1                                  npm                         
 stterm                                                                        0.9.2-1                                deb                         
@@ -1383,7 +1390,6 @@ tar                                                                           1.
 tar                                                                           7.5.11                                 npm                         
 tas-client                                                                    0.3.1                                  npm                         
 terminal-suggest                                                              1.0.1                                  npm                         
-theme-2026                                                                    0.1.0                                  npm                         
 theme-abyss                                                                   10.0.0                                 npm                         
 theme-defaults                                                                10.0.0                                 npm                         
 theme-kimbie-dark                                                             10.0.0                                 npm                         
@@ -1406,7 +1412,7 @@ typing-extensions                                                             4.
 tzdata                                                                        2026a-0+deb13u1                        deb                         
 udev                                                                          257.9-1~deb13u1                        deb                         
 udisks2                                                                       2.10.1-12.1+deb13u1                    deb                         
-undici                                                                        7.24.0                                 npm                         
+undici                                                                        7.24.4                                 npm                         
 universalify                                                                  2.0.1                                  npm                         
 util-deprecate                                                                1.0.2                                  npm                         
 util-linux                                                                    2.41-5                                 deb                         
@@ -1417,6 +1423,7 @@ vscode-css-languageserver                                                     10
 vscode-html-languageserver                                                    10.0.0                                 npm                         
 vscode-js-profile-table                                                       1.0.10                                 npm                         
 vscode-json-languageserver                                                    1.3.4                                  npm                         
+vscode-jsonrpc                                                                8.2.1                                  npm                         
 vscode-oniguruma                                                              1.7.0                                  npm                         
 vscode-regexp-languagedetection                                               1.0.0                                  npm                         
 vscode-regexpp                                                                3.1.0                                  npm                         
@@ -1432,6 +1439,7 @@ wl-clipboard                                                                  2.
 wlr-randr                                                                     0.4.1-1                                deb                         
 wrappy                                                                        1.0.2                                  npm                         
 ws                                                                            7.5.10                                 npm                         
+ws                                                                            8.19.0                                 npm                         
 x11-apps                                                                      7.7+11+b1                              deb                         
 x11-common                                                                    1:7.7+24+deb13u1                       deb                         
 x11-session-utils                                                             7.7+6+b1                               deb                         
@@ -1475,3 +1483,4 @@ yazl                                                                          2.
 zipp                                                                          3.23.0                                 python                      
 zlib1g                                                                        1:1.3.dfsg+really1.3.1-1+b1            deb                         
 zod                                                                           3.25.76                                npm                         
+zod                                                                           4.3.6                                  npm                         
