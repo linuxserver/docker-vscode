@@ -110,4 +110,5 @@ init_diagram: |
   "vscode:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "04.04.26:", desc: "Make Wayland default disable with PIXELFLUX_WAYLAND=false."}
   - {date: "20.03.26:", desc: "Initial release."}
