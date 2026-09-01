@@ -5,7 +5,7 @@ NAME                                                                          VE
 @vscode/copilot-typescript-server-plugin                                      1.0.0                                   npm                         
 @vscode/fs-copyfile                                                           2.0.0                                   npm                         
 @vscode/sandbox-runtime                                                       0.0.1                                   npm                         
-Code                                                                          1.134.0                                 npm                         
+Code                                                                          1.135.0                                 npm                         
 Microsoft.PowerShell.PSReadLine                                               2.4.3                                   dotnet                      
 Microsoft.PowerShell.PSReadLine.Polyfiller                                    1.0.0.0                                 dotnet     (+1 duplicate)   
 Microsoft.PowerShell.Pager                                                    1.0.0.0                                 dotnet                      
@@ -47,14 +47,14 @@ caja-common                                                                   1.
 catatonit                                                                     0.2.1-2+b13                             deb                         
 certifi                                                                       2026.7.22                               python                      
 cffi                                                                          2.1.1                                   python                      
-chromium                                                                      151.0.7922.169-1~deb13u1                deb                         
-chromium-common                                                               151.0.7922.169-1~deb13u1                deb                         
-chromium-l10n                                                                 151.0.7922.169-1~deb13u1                deb                         
+chromium                                                                      151.0.7922.173-1~deb13u1                deb                         
+chromium-common                                                               151.0.7922.173-1~deb13u1                deb                         
+chromium-l10n                                                                 151.0.7922.173-1~deb13u1                deb                         
 cli                                                                           UNKNOWN                                 binary                      
 cli-32                                                                        UNKNOWN                                 binary                      
 cli-64                                                                        UNKNOWN                                 binary                      
 cli-arm64                                                                     UNKNOWN                                 binary                      
-click                                                                         8.4.2                                   python                      
+click                                                                         8.5.0                                   python                      
 clojure                                                                       10.0.0                                  npm                         
 cloud.google.com/go/auth                                                      v0.20.0                                 go-module                   
 cloud.google.com/go/auth/oauth2adapt                                          v0.2.8                                  go-module                   
@@ -63,14 +63,14 @@ cloud.google.com/go/logging                                                   v1
 cloud.google.com/go/longrunning                                               v1.2.0                                  go-module                   
 cmake                                                                         3.31.6-2                                deb                         
 cmake-data                                                                    3.31.6-2                                deb                         
-code                                                                          1.134.0-1787078834                      deb                         
+code                                                                          1.135.0-1787669172                      deb                         
 code.cloudfoundry.org/clock                                                   v1.60.0                                 go-module                   
 coffeescript                                                                  10.0.0                                  npm                         
 commander                                                                     12.1.0                                  npm                         
 configuration-editing                                                         10.0.0                                  npm                         
 console-data                                                                  2:1.12-9                                deb                         
-containerd.io                                                                 2.3.3-1~debian.13~trixie                deb                         
-copilot-chat                                                                  0.62.0                                  npm                         
+containerd.io                                                                 2.3.4-1~debian.13~trixie                deb                         
+copilot-chat                                                                  0.63.0                                  npm                         
 coreutils                                                                     9.7-3                                   deb                         
 cpp                                                                           10.0.0                                  npm                         
 cpp                                                                           4:14.2.0-1                              deb                         
@@ -79,7 +79,7 @@ cpp-14-x86-64-linux-gnu                                                       14
 cpp-x86-64-linux-gnu                                                          4:14.2.0-1                              deb                         
 cron                                                                          3.0pl1-197                              deb                         
 cron-daemon-common                                                            3.0pl1-197                              deb                         
-cryptography                                                                  50.0.0                                  python                      
+cryptography                                                                  50.0.1                                  python                      
 csharp                                                                        10.0.0                                  npm                         
 css                                                                           10.0.0                                  npm                         
 css-language-features                                                         10.0.0                                  npm                         
@@ -117,7 +117,7 @@ dotenv                                                                        10
 dpkg                                                                          1.22.22                                 deb                         
 dunst                                                                         1.12.2-1                                deb                         
 emmet                                                                         10.0.0                                  npm                         
-evdev                                                                         1.9.3                                   python                      
+evdev                                                                         2.0.0                                   python                      
 exim4-base                                                                    4.98.2-1+deb13u4                        deb                         
 exim4-config                                                                  4.98.2-1+deb13u4                        deb                         
 exim4-daemon-light                                                            4.98.2-1+deb13u4                        deb                         
@@ -221,7 +221,8 @@ github.com/containerd/btrfs/v2                                                v2
 github.com/containerd/cgroups/v3                                              v3.1.3                                  go-module  (+3 duplicates)  
 github.com/containerd/console                                                 v1.0.5                                  go-module  (+6 duplicates)  
 github.com/containerd/containerd/api                                          v1.11.1                                 go-module  (+5 duplicates)  
-github.com/containerd/containerd/v2                                           v2.3.3                                  go-module  (+5 duplicates)  
+github.com/containerd/containerd/v2                                           v2.3.3                                  go-module  (+2 duplicates)  
+github.com/containerd/containerd/v2                                           v2.3.4                                  go-module  (+2 duplicates)  
 github.com/containerd/continuity                                              v0.5.0                                  go-module  (+5 duplicates)  
 github.com/containerd/errdefs                                                 v1.0.0                                  go-module  (+5 duplicates)  
 github.com/containerd/errdefs/pkg                                             v0.3.0                                  go-module  (+5 duplicates)  
@@ -650,13 +651,16 @@ json-language-features                                                        10
 jsts-chat-features                                                            0.0.4                                   npm                         
 julia                                                                         10.0.0                                  npm                         
 k8s.io/api                                                                    v0.36.0                                 go-module                   
-k8s.io/apimachinery                                                           v0.36.0                                 go-module  (+3 duplicates)  
-k8s.io/client-go                                                              v0.36.0                                 go-module  (+1 duplicate)   
-k8s.io/cri-api                                                                v0.36.0                                 go-module                   
-k8s.io/cri-streaming                                                          v0.36.0                                 go-module                   
+k8s.io/apimachinery                                                           v0.36.0                                 go-module  (+1 duplicate)   
+k8s.io/apimachinery                                                           v0.36.3                                 go-module  (+1 duplicate)   
+k8s.io/client-go                                                              v0.36.0                                 go-module                   
+k8s.io/client-go                                                              v0.36.3                                 go-module                   
+k8s.io/cri-api                                                                v0.36.3                                 go-module                   
+k8s.io/cri-streaming                                                          v0.36.3                                 go-module                   
 k8s.io/klog/v2                                                                v2.140.0                                go-module  (+3 duplicates)  
 k8s.io/kube-openapi                                                           v0.0.0-20260319004828-5883c5ee87b9      go-module                   
-k8s.io/streaming                                                              v0.36.0                                 go-module  (+1 duplicate)   
+k8s.io/streaming                                                              v0.36.0                                 go-module                   
+k8s.io/streaming                                                              v0.36.3                                 go-module                   
 k8s.io/utils                                                                  v0.0.0-20260319190234-28399d86e0b5      go-module  (+1 duplicate)   
 kbd                                                                           2.7.1-2                                 deb                         
 keyboard-configuration                                                        1.242~deb13u1                           deb                         
@@ -979,7 +983,7 @@ libspeex1                                                                     1.
 libspeexdsp1                                                                  1.2.1-3                                 deb                         
 libsqlite3-0                                                                  3.46.1-7+deb13u1                        deb                         
 libssh2-1t64                                                                  1.11.1-1+deb13u1                        deb                         
-libssl3t64                                                                    3.5.6-1~deb13u2                         deb                         
+libssl3t64                                                                    3.5.7-1~deb13u2                         deb                         
 libstartup-notification0                                                      0.12-8                                  deb                         
 libstdc++-14-dev                                                              14.2.0-19                               deb                         
 libstdc++6                                                                    14.2.0-19                               deb                         
@@ -1105,7 +1109,7 @@ libz3-4                                                                       4.
 libzstd1                                                                      1.5.7+dfsg-1                            deb                         
 libzvbi-common                                                                0.2.44-1                                deb                         
 libzvbi0t64                                                                   0.2.44-1                                deb                         
-linux-libc-dev                                                                6.12.101-1                              deb                         
+linux-libc-dev                                                                6.12.105-1                              deb                         
 linux-sysctl-defaults                                                         4.12.1                                  deb                         
 locales                                                                       2.41-12+deb13u3                         deb                         
 locales-all                                                                   2.41-12+deb13u3                         deb                         
@@ -1133,7 +1137,7 @@ mesa-vulkan-drivers                                                           25
 microsoft-authentication                                                      0.0.1                                   npm                         
 more-itertools                                                                10.8.0                                  python                      
 mount                                                                         2.41.5-0+deb13u1                        deb                         
-msgpack                                                                       1.2.1                                   python                      
+msgpack                                                                       1.2.2                                   python                      
 multidict                                                                     6.7.1                                   python                      
 napi-oop-runtime                                                              1.0.9                                   npm                         
 ncurses-base                                                                  6.5+20250216-2                          deb                         
@@ -1150,8 +1154,8 @@ objective-c                                                                   10
 ocl-icd-libopencl1                                                            2.3.3-1                                 deb                         
 openbox                                                                       3.6.1-12+b2                             deb                         
 openssh-client                                                                1:10.0p1-7+deb13u4                      deb                         
-openssl                                                                       3.5.6-1~deb13u2                         deb                         
-openssl-provider-legacy                                                       3.5.6-1~deb13u2                         deb                         
+openssl                                                                       3.5.7-1~deb13u2                         deb                         
+openssl-provider-legacy                                                       3.5.7-1~deb13u2                         deb                         
 p11-kit                                                                       0.25.5-3                                deb                         
 p11-kit-modules                                                               0.25.5-3                                deb                         
 packaging                                                                     26.0                                    python                      
@@ -1188,8 +1192,8 @@ pulseaudio                                                                    17
 pulseaudio-utils                                                              17.0+dfsg1-2+b1                         deb                         
 pulsectl                                                                      24.12.0                                 python                      
 pycparser                                                                     3.0                                     python                      
-pydantic                                                                      2.13.4                                  python                      
-pydantic-core                                                                 2.46.4                                  python                      
+pydantic                                                                      2.13.5                                  python                      
+pydantic-core                                                                 2.46.5                                  python                      
 pyee                                                                          14.0.0                                  python                      
 pygobject                                                                     3.50.0                                  python                      
 pylibsrtp                                                                     1.0.0                                   python                      
@@ -1239,8 +1243,7 @@ sqv                                                                           1.
 ssh-askpass                                                                   1:1.2.4.1-16+b1                         deb                         
 ssl-cert                                                                      1.1.3                                   deb                         
 starlette                                                                     1.6.0                                   python                      
-stdlib                                                                        go1.26.3                                go-module  (+3 duplicates)  
-stdlib                                                                        go1.26.5                                go-module  (+3 duplicates)  
+stdlib                                                                        go1.26.5                                go-module  (+7 duplicates)  
 stdlib                                                                        go1.26.6                                go-module                   
 stterm                                                                        0.9.2-1                                 deb                         
 sudo                                                                          1.9.16p2-3+deb13u2                      deb                         
@@ -1288,7 +1291,7 @@ vsda                                                                          1.
 vulkan-tools                                                                  1.4.304.0+dfsg1-1                       deb                         
 watchdog                                                                      6.0.0                                   python                      
 watchfiles                                                                    1.2.0                                   python                      
-websockets                                                                    17.0.1                                  python                      
+websockets                                                                    17.1                                    python                      
 wheel                                                                         0.46.3                                  python                      
 wl-clipboard                                                                  2.2.1-2                                 deb                         
 wlr-randr                                                                     0.4.1-1                                 deb                         
