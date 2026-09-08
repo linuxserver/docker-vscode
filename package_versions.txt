@@ -6,7 +6,7 @@ NAME                                                                          VE
 @vscode/copilot-typescript-server-plugin                                      1.0.0                                   npm                         
 @vscode/fs-copyfile                                                           2.0.0                                   npm                         
 @vscode/sandbox-runtime                                                       0.0.1                                   npm                         
-Code                                                                          1.136.1                                 npm                         
+Code                                                                          1.136.2                                 npm                         
 Microsoft.PowerShell.PSReadLine                                               2.4.3                                   dotnet                      
 Microsoft.PowerShell.PSReadLine.Polyfiller                                    1.0.0.0                                 dotnet     (+1 duplicate)   
 Microsoft.PowerShell.Pager                                                    1.0.0.0                                 dotnet                      
@@ -64,7 +64,7 @@ cloud.google.com/go/logging                                                   v1
 cloud.google.com/go/longrunning                                               v1.2.0                                  go-module                   
 cmake                                                                         3.31.6-2                                deb                         
 cmake-data                                                                    3.31.6-2                                deb                         
-code                                                                          1.136.1-1788413865                      deb                         
+code                                                                          1.136.2-1788561671                      deb                         
 code.cloudfoundry.org/clock                                                   v1.60.0                                 go-module                   
 coffeescript                                                                  10.0.0                                  npm                         
 commander                                                                     12.1.0                                  npm                         
